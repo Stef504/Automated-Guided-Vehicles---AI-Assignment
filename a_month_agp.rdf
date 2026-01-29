@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Accelerometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Accelerometer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Blocked -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Blocked">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Charge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Charge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Charging_Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Charging_Zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Constrained -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Constrained">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Disposal_Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Disposal_Site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Dump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Dump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Dumping_Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Dumping_Zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Electronic_Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Electronic_Components"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Emergency_Lights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Emergency_Lights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Lights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Excavation_Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Excavation_Site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Faulty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Faulty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Grippy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Grippy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Height -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Height">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Idle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Idle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Intersection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Intersection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#LEDs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#LEDs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Lights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Large -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Large">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#LiDAR_Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#LiDAR_Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Lights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Lights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Electronic_Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load_Capacity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load_Capacity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loaded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loaded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loading_Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loading_Zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Max_Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Max_Speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Metal_Extraction_Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Metal_Extraction_Site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Mine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Mine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Ore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Ore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Overloaded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Overloaded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#PayLoad_Constraint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#PayLoad_Constraint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Constrained"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Safety_Constraint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Radar_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Radar_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Restricted_Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Restricted_Zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Safety_Constraint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Safety_Constraint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Constrained"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Electronic_Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Speakers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Speakers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Electronic_Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Steepness_Gradient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Steepness_Gradient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Tilt_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Tilt_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Track -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Track">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Tunnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Tunnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wait -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wait">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waiting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waiting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waiting_Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waiting_Zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Warning_Lights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Warning_Lights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Lights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Weight_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Weight_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Width -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Width">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Copper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Copper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Ore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Granite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Granite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Elements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Iron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Iron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Ore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Limestone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Limestone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Elements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Lithium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Lithium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Ore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Mud -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Mud">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waste"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Other_Residue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Other_Residue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waste"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Rock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Rock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waste"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sulfur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Sulfur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Elements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Electronic_Components"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV_Specifications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Electronic_Components"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Accelerometer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#LiDAR_Sensors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Radar_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Tilt_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Weight_Sensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Blocked"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Constrained"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Faulty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Idle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loaded"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Overloaded"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waiting"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Charge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Dump"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loading"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Transport"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wait"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Charging_Zone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Dumping_Zone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Loading_Zone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Restricted_Zone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waiting_Zone"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Disposal_Site"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Excavation_Site"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Metal_Extraction_Site"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Mine"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Elements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Ore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Waste"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Emergency_Lights"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#LEDs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Warning_Lights"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Grippy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Normal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Track"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Height"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load_Capacity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Max_Speed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Weight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Width"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Intersection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Level"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Steepness_Gradient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Tunnel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Large"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Medium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Small"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
