@@ -221,6 +221,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#hasComponent"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Camera"/>
     </owl:ObjectProperty>
     
@@ -266,6 +267,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
     </owl:ObjectProperty>
     
@@ -323,6 +325,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#hasComponent"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Speakers"/>
     </owl:ObjectProperty>
     
@@ -331,16 +334,6 @@
     <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#hasSpecifications -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#hasSpecifications">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#hasState -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#hasState">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -366,6 +359,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels"/>
     </owl:ObjectProperty>
     
 
@@ -376,6 +370,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
     </owl:ObjectProperty>
     
@@ -409,6 +404,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Load"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#load_weight"/>
     </owl:ObjectProperty>
     
@@ -464,6 +460,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Site"/>
     </owl:ObjectProperty>
     
@@ -476,6 +473,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#AGV"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Zone"/>
     </owl:ObjectProperty>
     
@@ -682,12 +680,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#hasWheels"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Wheels"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#has_Infrastructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Infrastructure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1360,9 +1352,11 @@
         <untitled-ontology-7:Waiting rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#wZone_1"/>
         <untitled-ontology-7:hasElements rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Copper"/>
         <untitled-ontology-7:in_Excavation rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#ex_1"/>
+        <untitled-ontology-7:in_Site rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#mine_1"/>
         <untitled-ontology-7:hasMaxSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2</untitled-ontology-7:hasMaxSpeed>
-        <untitled-ontology-7:hasPayLoadCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</untitled-ontology-7:hasPayLoadCapacity>
+        <untitled-ontology-7:hasPayLoadCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20000</untitled-ontology-7:hasPayLoadCapacity>
         <untitled-ontology-7:hasSize>large</untitled-ontology-7:hasSize>
+        <untitled-ontology-7:hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</untitled-ontology-7:hasWidth>
     </owl:NamedIndividual>
     
 
@@ -1375,10 +1369,11 @@
         <untitled-ontology-7:Unloads rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Mud"/>
         <untitled-ontology-7:hasWaste rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Mud"/>
         <untitled-ontology-7:hasWheels rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#grip_smallTire"/>
-        <untitled-ontology-7:has_Intersection rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#intersection_1.1"/>
         <untitled-ontology-7:in_Disposal rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#dis_1"/>
+        <untitled-ontology-7:hasMaxSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</untitled-ontology-7:hasMaxSpeed>
         <untitled-ontology-7:hasPayLoadCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</untitled-ontology-7:hasPayLoadCapacity>
         <untitled-ontology-7:hasSize>small</untitled-ontology-7:hasSize>
+        <untitled-ontology-7:hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</untitled-ontology-7:hasWidth>
     </owl:NamedIndividual>
     
 
@@ -1403,13 +1398,26 @@
 
     <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Iron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Iron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Iron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Ore"/>
+        <untitled-ontology-7:load_specif rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#spec_Iron_01"/>
+        <untitled-ontology-7:measure_weight rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#weightSens_med"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Komatsu -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Komatsu"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Komatsu">
+        <untitled-ontology-7:carriesLoad rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#Iron"/>
+        <untitled-ontology-7:hasWheels rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#grip_medTire"/>
+        <untitled-ontology-7:in_Site rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#mine_2"/>
+        <untitled-ontology-7:in_Zone rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#lZone_2"/>
+        <untitled-ontology-7:hasMaxSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</untitled-ontology-7:hasMaxSpeed>
+        <untitled-ontology-7:hasPayLoadCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4000</untitled-ontology-7:hasPayLoadCapacity>
+        <untitled-ontology-7:hasSize>medium</untitled-ontology-7:hasSize>
+        <untitled-ontology-7:hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</untitled-ontology-7:hasWidth>
+    </owl:NamedIndividual>
     
 
 
@@ -1731,7 +1739,9 @@
 
     <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#mine_1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#mine_1"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#mine_1">
+        <untitled-ontology-7:has_Infrastructure rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#tunnel_0.1"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1818,6 +1828,16 @@
     <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#speak_voice -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#speak_voice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#spec_Iron_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#spec_Iron_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#load_weight"/>
+        <untitled-ontology-7:measure_weight rdf:resource="http://www.semanticweb.org/boli/ontologies/2025/11/untitled-ontology-7#weightSens_med"/>
+        <untitled-ontology-7:weight_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</untitled-ontology-7:weight_value>
+    </owl:NamedIndividual>
     
 
 
